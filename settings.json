@@ -10,6 +10,7 @@
         "rust": "cd $workspaceRoot && cargo run"
     },
     "files.autoSave": "afterDelay",
+    "workbench.tree.indent": 17,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -364,8 +365,4 @@
         // "editor.lineHighlightBackground": "#291f1f",
     },
     "projectManager.sortList": "Path",
-    "vs-kubernetes": {
-        "vs-kubernetes.minikube-show-information-expiration": "2025-05-18T20:42:52.983Z"
-    },
-    "git.openRepositoryInParentFolders": "never",
 }
