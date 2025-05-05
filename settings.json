@@ -2,7 +2,7 @@
     "go.toolsManagement.autoUpdate": true,
     "workbench.startupEditor": "none",
     "[python]": {
-        "editor.formatOnType": true,
+        "editor.formatOnType": true
     },
     "code-runner.executorMap": {
         "python": "cd $workspaceRoot && python -u main.py",
@@ -42,7 +42,7 @@
                     "storage.type.generic",
                     "storage.type.java",
                     "storage.type.primitive",
-                    "variable.parameter.go",
+                    "variable.parameter.go"
                     // "meta.use.rust keyword.operator.namespace.rust", // rs
                     // "meta.function.definition.rust keyword.operator.key-value.rust", // rs
                     // "keyword.operator.key-value.rust", // rs
@@ -54,48 +54,48 @@
             },
             {
                 "scope": [
-                    "entity.name.function.support.go",
+                    "entity.name.function.support.go"
                     // "meta.function.call.rust entity.name.function.rust", // rs
                 ],
                 "settings": {
-                    "foreground": "#B09D79",
+                    "foreground": "#B09D79"
                 }
             },
             {
                 "scope": [
                     "entity.name.function.support.builtin.go",
                     "keyword.channel.go",
-                    "keyword.operator.channel.go",
+                    "keyword.operator.channel.go"
                     // "entity.name.type.option.rust", // rs
                     // "meta.function.call.rust keyword.operator.borrow.and.rust", // rs
                 ],
                 "settings": {
-                    "foreground": "#CC7832",
+                    "foreground": "#CC7832"
                 }
             },
             {
                 "scope": [
                     "comment.line.double-slash.go",
-                    "constant.other.placeholder.go",
+                    "constant.other.placeholder.go"
                     // "comment.line.documentation.rust", // rs
                 ],
                 "settings": {
-                    "foreground": "#7A7E85",
+                    "foreground": "#7A7E85"
                 }
             },
             {
                 "scope": [
-                    "entity.name.function.go",
+                    "entity.name.function.go"
                     // "entity.name.function.rust", // rs
                 ],
                 "settings": {
-                    "foreground": "#4CCD87",
+                    "foreground": "#4CCD87"
                 }
             },
             {
                 "scope": [
                     "variable.other.import.go",
-                    "entity.name.type.package.go",
+                    "entity.name.type.package.go"
                 ],
                 "settings": {
                     "foreground": "#cdd4b2",
@@ -133,7 +133,7 @@
                     // "keyword.declaration.struct.rust storage.type.rust", // rs
                 ],
                 "settings": {
-                    "foreground": "#e3b854",
+                    "foreground": "#e3b854"
                     // "foreground": "#F1C358",
                 }
             },
@@ -145,21 +145,21 @@
                     "variable.other.constant.go",
                     "constant.numeric.decimal.go",
                     "constant.language.boolean.go",
-                    "constant.language.go.mod",
+                    "constant.language.go.mod"
                     // "constant.other.caps.rust", // rs
                     // "meta.function.definition.rust variable.other.rust", // rs 
                 ],
                 "settings": {
-                    "foreground": "#52B4D8",
+                    "foreground": "#52B4D8"
                 }
             },
             {
                 "scope": [
-                    "entity.name.type.go",
+                    "entity.name.type.go"
                 ],
                 "settings": {
                     // "foreground": "#A2D66B",
-                    "foreground": "#a3cd75",
+                    "foreground": "#a3cd75"
                 }
             },
             {
@@ -175,13 +175,13 @@
                 ],
                 "settings": {
                     // "foreground":"#A2D66B",
-                    "foreground": "#5B9C71",
+                    "foreground": "#5B9C71"
                 }
             },
             {
                 "scope": [
                     "variable.other.property.go",
-                    "variable.other.go",
+                    "variable.other.go"
                     // "meta.use.rust entity.name.type.rust", // rs
                     // "variable.other.rust", // rs
                 ],
@@ -192,21 +192,21 @@
             },
             {
                 "scope": [
-                    "variable.other.assignment.go",
+                    "variable.other.assignment.go"
                 ],
                 "settings": {
-                    "foreground": "#cfccc8",
+                    "foreground": "#cfccc8"
                 }
             },
             {
                 "scope": [
                     "keyword.operator.assignment.go",
                     "keyword.operator.comparison.go",
-                    "keyword.operator.logical.go",
+                    "keyword.operator.logical.go"
                 ],
                 "settings": {
                     // "foreground": "#9bcdd6",
-                    "foreground": "#fff6df",
+                    "foreground": "#fff6df"
                 }
             },
             // {
@@ -220,10 +220,10 @@
             // },
             {
                 "scope": [
-                    "keyword.operator.address.go",
+                    "keyword.operator.address.go"
                 ],
                 "settings": {
-                    "foreground": "#E2EAC2",
+                    "foreground": "#E2EAC2"
                 }
             },
             {
@@ -232,7 +232,7 @@
                     "support.type.property-name.json"
                 ],
                 "settings": {
-                    "foreground": "#3498DB",
+                    "foreground": "#3498DB"
                 }
             },
             {
@@ -247,13 +247,13 @@
                     "punctuation.section.embedded",
                     // "support.type.property-name",
                     "variable.object.property",
-                    "variable.other.enummember",
+                    "variable.other.enummember"
                 ],
                 "settings": {
                     "foreground": "#56B6C2",
                     "fontStyle": "bold"
                 }
-            },
+            }
             // {
             //     "scope": [
             //       "variable.parameter",
@@ -289,29 +289,29 @@
         "[One Dark]": {
             "rules": {
                 "property:rust": {
-                    "foreground": "#ABB2BF",
+                    "foreground": "#ABB2BF"
                     // "fontStyle": "italic"
                 },
                 "property.declaration:rust": {
-                    "foreground": "#ABB2BF",
+                    "foreground": "#ABB2BF"
                     // "fontStyle": "italic"
                 },
                 "property.library:rust": {
-                    "foreground": "#ABB2BF",
+                    "foreground": "#ABB2BF"
                     // "fontStyle": "italic"
                 },
                 "property:python": {
-                    "foreground": "#ABB2BF",
+                    "foreground": "#ABB2BF"
                     // "fontStyle": "italic"
                 },
                 "property.declaration:python": {
-                    "foreground": "#ABB2BF",
+                    "foreground": "#ABB2BF"
                     // "fontStyle": "italic"
                 },
                 "property.library:python": {
-                    "foreground": "#ABB2BF",
+                    "foreground": "#ABB2BF"
                     // "fontStyle": "italic"
-                },
+                }
             }
         }
     },
@@ -361,8 +361,8 @@
         "editorBracketHighlight.foreground3": "#BCBEC4",
         "editorBracketHighlight.foreground4": "#BCBEC4",
         "editorBracketHighlight.foreground5": "#BCBEC4",
-        "editorBracketHighlight.foreground6": "#BCBEC4",
+        "editorBracketHighlight.foreground6": "#BCBEC4"
         // "editor.lineHighlightBackground": "#291f1f",
     },
-    "projectManager.sortList": "Path",
+    "projectManager.sortList": "Path"
 }
