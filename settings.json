@@ -10,7 +10,8 @@
         "rust": "cd $workspaceRoot && cargo run"
     },
     "files.autoSave": "afterDelay",
-    "workbench.tree.indent": 17,
+    "workbench.tree.indent": 18,
+    "editor.fontSize": 12.5,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -319,7 +320,6 @@
     // "workbench.colorTheme": "Cold Python Theme",
     "makefile.configureOnOpen": true,
     "remote.SSH.enableDynamicForwarding": false,
-    "editor.fontSize": 12,
     "editor.largeFileOptimizations": false,
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
