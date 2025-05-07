@@ -123,7 +123,8 @@
                     "keyword.operator.channel.go",
                     "keyword.control.import.go",
                     "keyword.package.go",
-                    "keyword.go.mod"
+                    "keyword.go.mod",
+                    "storage.type.rune.go"
                     // "meta.use.rust keyword.other", // rs
                     // "keyword.other.rust", // rs
                     // "storage.modifier.rust", // rs
