@@ -190,7 +190,7 @@
                 ],
                 "settings": {
                     "foreground": "#cfccc8",
-                    "fontStyle": "italic"
+                    // "fontStyle": "italic"
                 }
             },
             {
