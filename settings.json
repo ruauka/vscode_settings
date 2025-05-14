@@ -147,7 +147,8 @@
                     "variable.other.constant.go",
                     "constant.numeric.decimal.go",
                     "constant.language.boolean.go",
-                    "constant.language.go.mod"
+                    "constant.language.go.mod",
+                    "variable.other.go"
                     // "constant.other.caps.rust", // rs
                     // "meta.function.definition.rust variable.other.rust", // rs 
                 ],
@@ -182,8 +183,8 @@
             },
             {
                 "scope": [
-                    "variable.other.property.go",
-                    "variable.other.go"
+                    "variable.other.property.go"
+                    // "variable.other.go"
                     // "meta.use.rust entity.name.type.rust", // rs
                     // "variable.other.rust", // rs
                 ],
@@ -365,5 +366,6 @@
         "editorBracketHighlight.foreground6": "#BCBEC4"
         // "editor.lineHighlightBackground": "#291f1f",
     },
-    "projectManager.sortList": "Path"
+    "projectManager.sortList": "Path",
+    "diffEditor.ignoreTrimWhitespace": false
 }
