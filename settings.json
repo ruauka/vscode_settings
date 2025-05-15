@@ -142,7 +142,7 @@
             {
                 "scope": [
                     "variable.parameter.go",
-                    "constant.language.null.go",
+                    // "constant.language.null.go",
                     "constant.language.iota.go",
                     "variable.other.constant.go",
                     "constant.numeric.decimal.go",
