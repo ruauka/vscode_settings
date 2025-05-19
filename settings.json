@@ -124,7 +124,8 @@
                     "keyword.control.import.go",
                     "keyword.package.go",
                     "keyword.go.mod",
-                    "storage.type.rune.go"
+                    "storage.type.rune.go",
+                    "storage.type.uintptr.go"
                     // "meta.use.rust keyword.other", // rs
                     // "keyword.other.rust", // rs
                     // "storage.modifier.rust", // rs
@@ -189,7 +190,7 @@
                     // "variable.other.rust", // rs
                 ],
                 "settings": {
-                    "foreground": "#cfccc8",
+                    "foreground": "#cfccc8"
                     // "fontStyle": "italic"
                 }
             },
