@@ -368,5 +368,27 @@
         // "editor.lineHighlightBackground": "#291f1f",
     },
     "projectManager.sortList": "Path",
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.openFoldersInNewWindow": "on",
+    "material-icon-theme.folders.color": "#90a4ae",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.associations": {
+        "internal": "constant",
+        "pkg": "constant",
+        "scripts": "constant",
+        "api": "constant",
+        "cmd": "constant",
+        "migrations": "constant",
+        "testdata": "constant",
+        "logic": "functions",
+        "utils": "project",
+        "functions": "",
+        "const": "",
+        "models": "",
+        "rules": "",
+        "trigger": "",
+        "client": "",
+        "model": "",
+        "lambda": ""
+    }
 }
