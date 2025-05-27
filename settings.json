@@ -10,7 +10,7 @@
         "rust": "cd $workspaceRoot && cargo run"
     },
     "files.autoSave": "afterDelay",
-    "workbench.tree.indent": 18,
+    "workbench.tree.indent": 15,
     "editor.fontSize": 12.5,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
