@@ -205,8 +205,11 @@
             {
                 "scope": [
                     "keyword.operator.assignment.go",
+                    "keyword.operator.arithmetic.go",
                     "keyword.operator.comparison.go",
-                    "keyword.operator.logical.go"
+                    "keyword.operator.logical.go",
+                    "keyword.operator.address.go",
+                    "source.go"
                 ],
                 "settings": {
                     // "foreground": "#9bcdd6",
@@ -222,14 +225,14 @@
             //         "foreground": "#B77651",
             //     }
             // },
-            {
-                "scope": [
-                    "keyword.operator.address.go"
-                ],
-                "settings": {
-                    "foreground": "#E2EAC2"
-                }
-            },
+            // {
+            //     "scope": [
+            //         "keyword.operator.address.go"
+            //     ],
+            //     "settings": {
+            //         "foreground": "#E2EAC2"
+            //     }
+            // },
             {
                 "scope": [
                     "support.type.property-name.json.comments",
@@ -391,4 +394,7 @@
         "model": "",
         "lambda": ""
     }
+    // "gopls": {
+    //     "semanticTokens": true
+    // }
 }

@@ -9,6 +9,7 @@ grapecity.gc-excelviewer
 irongeek.vscode-env
 mechatroner.rainbow-csv
 mhutchie.git-graph
+ms-azuretools.vscode-containers
 ms-azuretools.vscode-docker
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.debugpy
@@ -27,6 +28,7 @@ ms-vscode.makefile-tools
 ms-vscode.remote-explorer
 mskelton.one-dark-theme
 pkief.material-icon-theme
+quillaja.goasm
 redhat.vscode-yaml
 rust-lang.rust-analyzer
 tamasfe.even-better-toml
