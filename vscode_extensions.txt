@@ -3,6 +3,7 @@ alefragnani.project-manager
 aleksandra.go-group-imports
 docker.docker
 eamodio.gitlens
+fill-labs.dependi
 formulahendry.code-runner
 golang.go
 grapecity.gc-excelviewer
