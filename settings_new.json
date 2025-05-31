@@ -1,0 +1,443 @@
+{
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.startupEditor": "none",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "code-runner.executorMap": {
+        "python": "cd $workspaceRoot && python -u main.py",
+        "go": "cd $workspaceRoot && go run main.go",
+        "rust": "cd $workspaceRoot && cargo run"
+    },
+    "files.autoSave": "afterDelay",
+    "workbench.tree.indent": 15,
+    "editor.fontSize": 12.5,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "One Dark italic",
+                "scope": [
+                    "comment",
+                    "entity.other.attribute-name",
+                    "keyword",
+                    "markup.underline.link",
+                    "storage.modifier",
+                    "storage.type",
+                    "string.url",
+                    "variable.language.super",
+                    "variable.language.this"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "One Dark italic reset",
+                "scope": [
+                    "keyword.operator",
+                    "keyword.other.type",
+                    "storage.modifier.import",
+                    "storage.modifier.package",
+                    "storage.type.built-in",
+                    "storage.type.function.arrow",
+                    "storage.type.generic",
+                    "storage.type.java",
+                    "storage.type.primitive",
+                    "variable.parameter.go"
+                    // "meta.use.rust keyword.operator.namespace.rust", // rs
+                    // "meta.function.definition.rust keyword.operator.key-value.rust", // rs
+                    // "keyword.operator.key-value.rust", // rs
+                    // "meta.function.definition.rust variable.other.rust", // rs 
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.support.go",
+                    "entity.name.function",
+                    "entity.other.attribute-name.id.css",
+                    "meta.function-call.generic",
+                    "string.other.link",
+                    "support.function",
+                    "variable.language.super",
+                    // "meta.function.call.rust entity.name.function.rust", // rs
+                ],
+                "settings": {
+                    "foreground": "#B09D79"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.support.builtin.go",
+                    "keyword.channel.go",
+                    "keyword.operator.channel.go"
+                    // "entity.name.type.option.rust", // rs
+                    // "meta.function.call.rust keyword.operator.borrow.and.rust", // rs
+                ],
+                "settings": {
+                    "foreground": "#CC7832"
+                }
+            },
+            {
+                "scope": [
+                    "comment.line.double-slash.go",
+                    "constant.other.placeholder.go"
+                    // "comment.line.documentation.rust", // rs
+                ],
+                "settings": {
+                    "foreground": "#7A7E85"
+                }
+            },            
+            // {
+            //     "scope": [
+            //         // "entity.name.function.member",
+            //         // "entity.name.function",
+            //         // "entity.other.attribute-name.id.css",
+            //         // "meta.function-call.generic",
+            //         // "string.other.link",
+            //         // "support.function",
+            //         // "variable.language.super",
+            //         // "entity.name.function",
+            //         // "source.go"
+            //     ],
+            //     "settings": {
+            //         "foreground": "#4CCD87"
+            //     }
+            // },
+            // {
+            //     "scope": [
+            //         // "entity.name.function.member",
+            //         // "entity.name.function",
+            //         // "entity.other.attribute-name.id.css",
+            //         // "meta.function-call.generic",
+            //         // "string.other.link",
+            //         // "support.function",
+            //         // "variable.language.super",
+            //         "entity.name.function.support.go",
+            //         // "source.go"
+            //     ],
+            //     "settings": {
+            //         "foreground": "#ff1500"
+            //     }
+            // },
+            {
+                "scope": [
+                    "variable.other.import.go",
+                    "entity.name.type.package.go",
+                    // "entity.name.type.go",
+                ],
+                "settings": {
+                    "foreground": "#cdd4b2",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.type.go",
+                    "variable.other.go"
+                ],
+                "settings": {
+                    "foreground": "#cdd4b2",
+                    // "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.function.go",
+                    "keyword.control.go",
+                    "storage.type.string.go",
+                    "storage.type.error.go",
+                    "keyword.interface.go",
+                    "keyword.var.go",
+                    "keyword.map.go",
+                    "storage.type.numeric.go",
+                    "storage.type.boolean.go",
+                    "keyword.type.go",
+                    "keyword.const.go",
+                    "keyword.struct.go",
+                    "storage.type.byte.go",
+                    "entity.name.type.any.go",
+                    "keyword.channel.go",
+                    "keyword.operator.channel.go",
+                    "keyword.control.import.go",
+                    "keyword.package.go",
+                    "keyword.go.mod",
+                    "storage.type.rune.go",
+                    "storage.type.uintptr.go",
+                    "keyword.operator.new",
+                    "keyword",
+                    "markup.italic",
+                    "punctuation.definition.block.tag",
+                    "storage.modifier",
+                    "storage.type",
+                    // "entity.name.type.go",
+                    "entity.name.type",
+                    "entity.other.inherited-class",
+                    "keyword.other.type",
+                    "punctuation.definition.annotation",
+                    "storage.modifier.import",
+                    "storage.modifier.package",
+                    "storage.type.annotation",
+                    "storage.type.built-in",
+                    "storage.type.generic",
+                    "storage.type.java",
+                    "storage.type.groovy",
+                    "storage.type.primitive",
+                    "support.class",
+                    "support.other.namespace",
+                    "support.type",
+                    "variable.language.this",
+                    // "meta.use.rust keyword.other", // rs
+                    // "keyword.other.rust", // rs
+                    // "storage.modifier.rust", // rs
+                    // "entity.name.type.rust", // rs
+                    // "entity.name.type.numeric.rust", // rs
+                    // "meta.function.definition.rust keyword.other.fn.rust", // rs
+                    // "keyword.control.rust", // rs
+                    // "keyword.declaration.struct.rust storage.type.rust", // rs
+                ],
+                "settings": {
+                    "foreground": "#e3b854"
+                    // "foreground": "#F1C358",
+                }
+            },
+            {
+                "scope": [
+                    "variable.parameter",
+                    "constant",
+                    "entity.other.attribute-name",
+                    "keyword.operator.quantifier.regexp",
+                    "markup.bold",
+                    "support.constant",
+                    "variable.other.constant",
+                    // "constant.other.caps.rust", // rs
+                    // "meta.function.definition.rust variable.other.rust", // rs 
+                ],
+                "settings": {
+                    "foreground": "#52B4D8"
+                }
+            },
+            {
+                "scope": [
+                    // "entity.name.type.go",
+                    "entity.name.type",
+                    "entity.other.inherited-class",
+                    "keyword.other.type",
+                    "punctuation.definition.annotation",
+                    "storage.modifier.import",
+                    "storage.modifier.package",
+                    "storage.type.annotation",
+                    "storage.type.built-in",
+                    "storage.type.generic",
+                    "storage.type.java",
+                    "storage.type.groovy",
+                    "storage.type.primitive",
+                    "support.class",
+                    "support.other.namespace",
+                    // "support.type",
+                    "variable.language.this",
+                ],
+                "settings": {
+                    // "foreground": "#A2D66B",
+                    "foreground": "#a3cd75"
+                }
+            },
+            {
+                "scope": [
+                    "string.quoted.double.go",
+                    // "entity.name.type.go",
+                    "constant.other.rune.go",
+                    "string.quoted.rune.go",
+                    "string.quoted.raw.go",
+                    "string.unquoted.go.mod"
+                    // "entity.name.type.struct.rust", // rs
+                    // "meta.function.definition.rust entity.name.type.rust", // rs
+                ],
+                "settings": {
+                    // "foreground":"#A2D66B",
+                    "foreground": "#5B9C71"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.property.go",
+                    // "variable.other.go"
+                    // "meta.use.rust entity.name.type.rust", // rs
+                    // "variable.other.rust", // rs
+                ],
+                "settings": {
+                    "foreground": "#cfccc8"
+                    // "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.go",
+                    "variable.other.assignment.go"
+                ],
+                "settings": {
+                    "foreground": "#cfccc8",
+                    
+                }
+            },
+            {
+                "scope": [
+                    "keyword.operator.assignment.go",
+                    "keyword.operator.arithmetic.go",
+                    "keyword.operator.comparison.go",
+                    "keyword.operator.logical.go",
+                    "keyword.operator.address.go",
+                    "source.go",
+                    "keyword.operator",
+                    "keyword.other.type",
+                    "storage.modifier.import",
+                    "storage.modifier.package",
+                    "storage.type.built-in",
+                    "storage.type.function.arrow",
+                    "storage.type.generic",
+                    "storage.type.java",
+                    "storage.type.primitive",
+                    // "variable.parameter.go",
+                ],
+                "settings": {
+                    // "foreground": "#9bcdd6",
+                    "foreground": "#fff6df"
+                }
+            },
+            {
+                "scope": [
+                    "support.type.property-name.json.comments",
+                    "support.type.property-name.json",
+                ],
+                "settings": {
+                    "foreground": "#3498DB"
+                }
+            },
+            {
+                "scope": [
+                    "constant.other.character-class",
+                    "entity.name.tag",
+                    "heading",
+                    "meta.object-literal.key",
+                    "punctuation.definition.list.begin.markdown",
+                    "punctuation.definition.list.end.markdown",
+                    "punctuation.definition.template-expression",
+                    "punctuation.section.embedded",
+                    "variable.object.property",
+                    "variable.other.enummember"
+                ],
+                "settings": {
+                    "foreground": "#56B6C2",
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[One Dark]": {
+            "rules": {
+                "property:rust": {
+                    "foreground": "#ABB2BF"
+                    // "fontStyle": "italic"
+                },
+                "property.declaration:rust": {
+                    "foreground": "#ABB2BF"
+                    // "fontStyle": "italic"
+                },
+                "property.library:rust": {
+                    "foreground": "#ABB2BF"
+                    // "fontStyle": "italic"
+                },
+                "property:python": {
+                    "foreground": "#ABB2BF"
+                    // "fontStyle": "italic"
+                },
+                "property.declaration:python": {
+                    "foreground": "#ABB2BF"
+                    // "fontStyle": "italic"
+                },
+                "property.library:python": {
+                    "foreground": "#ABB2BF"
+                    // "fontStyle": "italic"
+                }
+            }
+        }
+    },
+    "workbench.colorTheme": "One Dark",
+    // "workbench.colorTheme": "Cold Python Theme",
+    "makefile.configureOnOpen": true,
+    "remote.SSH.enableDynamicForwarding": false,
+    "editor.largeFileOptimizations": false,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "lldb.suppressUpdateNotifications": true,
+    "explorer.confirmPasteNative": false,
+    // "go.gopath": "/home/user/go",
+    // "go.goroot": "/usr/local/go1.20",
+    // "go.useLanguageServer": true
+    "go.alternateTools": {},
+    "docker.extension.dockerEngineAvailabilityPrompt": false,
+    "editor.fontFamily": "Monaco",
+    "terminal.integrated.fontFamily": "Monaco",
+    "rust-analyzer.workspace.discoverConfig": null,
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#292a2d",
+        "titleBar.inactiveBackground": "#3c3f41",
+        "titleBar.border": "#3c3f41",
+        // "editor.background": "#222222",
+        // "editor.background": "#282828",
+        // "editor.background": "#1e1f22",
+        // "editor.background": "#2d2d2d",
+        "editor.background": "#292a2d",
+        "editorGutter.background": "#292a2d",
+        "sideBar.background": "#292a2d",
+        "editorGroupHeader.tabsBackground": "#292a2d",
+        "tab.inactiveBackground": "#292a2d",
+        "breadcrumb.background": "#292a2d",
+        "tab.activeBackground": "#292a2d",
+        "statusBar.noFolderBorder": "#292a2d",
+        "statusBar.debuggingBorder": "#292a2d",
+        "terminal.background": "#292a2d",
+        "activityBar.background": "#292a2d",
+        "statusBar.background": "#292a2d",
+        "panel.background": "#292a2d",
+        "statusBar.border": "#3c3f41",
+        "activityBar.border": "#3c3f41",
+        "editorBracketHighlight.foreground1": "#BCBEC4",
+        "editorBracketHighlight.foreground2": "#BCBEC4",
+        "editorBracketHighlight.foreground3": "#BCBEC4",
+        "editorBracketHighlight.foreground4": "#BCBEC4",
+        "editorBracketHighlight.foreground5": "#BCBEC4",
+        "editorBracketHighlight.foreground6": "#BCBEC4"
+        // "editor.lineHighlightBackground": "#291f1f",
+    },
+    "projectManager.sortList": "Path",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.openFoldersInNewWindow": "on",
+    "material-icon-theme.folders.color": "#90a4ae",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.associations": {
+        "internal": "constant",
+        "pkg": "constant",
+        "scripts": "constant",
+        "api": "constant",
+        "cmd": "constant",
+        "migrations": "constant",
+        "testdata": "constant",
+        "logic": "functions",
+        "utils": "project",
+        "functions": "",
+        "const": "",
+        "models": "",
+        "rules": "",
+        "trigger": "",
+        "client": "",
+        "model": "",
+        "lambda": ""
+    },
+    "gopls": {
+        "semanticTokens": true
+    }
+}
