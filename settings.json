@@ -392,8 +392,9 @@
         "trigger": "",
         "client": "",
         "model": "",
-        "lambda": ""
-    }
+        "lambda": "",
+        "dev": ""
+    },
     // "gopls": {
     //     "semanticTokens": true
     // }
