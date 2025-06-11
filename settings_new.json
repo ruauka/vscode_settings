@@ -189,6 +189,10 @@
                     "foreground": "#a3cd75",
                     // "fontStyle": "italic"
                 },
+                "type.defaultLibrary.interface:go": {
+                    "foreground": "#e3b854",
+                    // "fontStyle": "italic"
+                },
                 "type.slice:go": {
                     "foreground": "#a3cd75",
                     // "fontStyle": "italic"
@@ -199,6 +203,10 @@
                 },
                 "operator:go": {
                     "foreground": "#fff6df",
+                    // "fontStyle": "italic"
+                },
+                "string.format:go": {
+                    "foreground": "#56B6C2",
                     // "fontStyle": "italic"
                 },
                 // rust
@@ -230,7 +238,7 @@
                 "property.library:python": {
                     "foreground": "#ABB2BF"
                     // "fontStyle": "italic"
-                }
+                },
             }
         }
     },
