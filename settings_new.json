@@ -189,7 +189,7 @@
                     "foreground": "#a3cd75",
                     // "fontStyle": "italic"
                 },
-                "type.defaultLibrary.interface:go": {
+                "type.defaultLibrary:go": {
                     "foreground": "#e3b854",
                     // "fontStyle": "italic"
                 },
