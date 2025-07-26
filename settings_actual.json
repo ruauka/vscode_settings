@@ -1,0 +1,173 @@
+{
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.startupEditor": "none",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "code-runner.executorMap": {
+        "python": "cd $workspaceRoot && python -u main.py",
+        "go": "cd $workspaceRoot && go run main.go",
+        "rust": "cd $workspaceRoot && cargo run"
+    },
+    "files.autoSave": "afterDelay",
+    "workbench.tree.indent": 15,
+    "editor.fontSize": 12.5,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "One Dark italic",
+                "scope": [
+                    "comment",
+                    "entity.other.attribute-name",
+                    "keyword",
+                    "markup.underline.link",
+                    "storage.modifier",
+                    "string.url",
+                    "variable.language.super",
+                    "variable.language.this"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "One Dark italic reset",
+                "scope": [
+                    "keyword.operator",
+                    "keyword.other.type",
+                    "storage.modifier.import",
+                    "storage.modifier.package",
+                    "storage.type.built-in",
+                    "storage.type.function.arrow",
+                    "storage.type.generic",
+                    "storage.type.java",
+                    "storage.type.primitive",
+                    "variable.parameter.go"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "support.type.property-name.json.comments",
+                    "support.type.property-name.json",
+                ],
+                "settings": {
+                    "foreground": "#3498DB"
+                }
+            },
+        ]
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[One Dark]": {
+            "rules": {
+                // go
+                "namespace:go": {
+                    "foreground": "#c3c7b4",
+                    "fontStyle": "italic"
+                },
+                "string.format:go": {
+                    "foreground": "#56B6C2",
+                    // "fontStyle": "italic"
+                },
+                // rust
+                "property:rust": {
+                    "foreground": "#ABB2BF"
+                    // "fontStyle": "italic"
+                },
+                "property.declaration:rust": {
+                    "foreground": "#ABB2BF"
+                    // "fontStyle": "italic"
+                },
+                "property.library:rust": {
+                    "foreground": "#ABB2BF"
+                    // "fontStyle": "italic"
+                },
+                "formatSpecifier:rust": {
+                    "foreground": "#56B6C2"
+                    // "fontStyle": "italic"
+                },
+                // python
+                "property:python": {
+                    "foreground": "#ABB2BF"
+                    // "fontStyle": "italic"
+                },
+                "property.declaration:python": {
+                    "foreground": "#ABB2BF"
+                    // "fontStyle": "italic"
+                },
+                "property.library:python": {
+                    "foreground": "#ABB2BF"
+                    // "fontStyle": "italic"
+                },
+            }
+        }
+    },
+    "workbench.colorTheme": "One Dark",
+    "makefile.configureOnOpen": true,
+    "remote.SSH.enableDynamicForwarding": false,
+    "editor.largeFileOptimizations": false,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "lldb.suppressUpdateNotifications": true,
+    "explorer.confirmPasteNative": false,
+    "go.alternateTools": {},
+    "docker.extension.dockerEngineAvailabilityPrompt": false,
+    "editor.fontFamily": "Monaco",
+    "terminal.integrated.fontFamily": "Monaco",
+    "rust-analyzer.workspace.discoverConfig": null,
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#262a2d",
+        "titleBar.inactiveBackground": "#3c3f41",
+        "titleBar.border": "#3c3f41",
+        "editor.background": "#262a2d",
+        "editorGutter.background": "#262a2d",
+        "sideBar.background": "#262a2d",
+        "editorGroupHeader.tabsBackground": "#262a2d",
+        "tab.inactiveBackground": "#262a2d",
+        "breadcrumb.background": "#262a2d",
+        "tab.activeBackground": "#262a2d",
+        "statusBar.noFolderBorder": "#262a2d",
+        "statusBar.debuggingBorder": "#262a2d",
+        "terminal.background": "#262a2d",
+        "activityBar.background": "#262a2d",
+        "statusBar.background": "#262a2d",
+        "panel.background": "#262a2d",
+        "statusBar.border": "#3c3f41",
+        "activityBar.border": "#3c3f41",
+        "editorBracketHighlight.foreground1": "#BCBEC4",
+        "editorBracketHighlight.foreground2": "#BCBEC4",
+        "editorBracketHighlight.foreground3": "#BCBEC4",
+        "editorBracketHighlight.foreground4": "#BCBEC4",
+        "editorBracketHighlight.foreground5": "#BCBEC4",
+        "editorBracketHighlight.foreground6": "#BCBEC4"
+    },
+    "projectManager.sortList": "Path",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.openFoldersInNewWindow": "on",
+    "material-icon-theme.folders.color": "#90a4ae",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.associations": {
+        "internal": "constant",
+        "pkg": "constant",
+        "scripts": "constant",
+        "api": "constant",
+        "cmd": "constant",
+        "migrations": "constant",
+        "testdata": "constant",
+        "logic": "functions",
+        "utils": "project",
+        "functions": "",
+        "const": "",
+        "models": "",
+        "rules": "",
+        "trigger": "",
+        "client": "",
+        "model": "",
+        "lambda": ""
+    },
+    "gopls": {
+        "semanticTokens": true
+    }
+}
