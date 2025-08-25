@@ -165,7 +165,12 @@
         "trigger": "",
         "client": "",
         "model": "",
-        "lambda": ""
+        "it": "",
+        "messages": "",
+        "logging": "",
+        "policy": "",
+        "lambda": "",
+        "dev": ""
     },
     "gopls": {
         "semanticTokens": true
