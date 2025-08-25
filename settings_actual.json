@@ -52,23 +52,23 @@
                 "scope": [
                     "support.type.property-name.json.comments",
                     "support.type.property-name.json",
+                    "entity.name.tag.yaml"
                 ],
                 "settings": {
                     "foreground": "#3498DB"
                 }
-            },
+            }
         ]
     },
     "editor.semanticTokenColorCustomizations": {
         "[One Dark]": {
             "rules": {
-                // go
                 "namespace:go": {
                     "foreground": "#c3c7b4",
                     "fontStyle": "italic"
                 },
                 "string.format:go": {
-                    "foreground": "#56B6C2",
+                    "foreground": "#56B6C2"
                     // "fontStyle": "italic"
                 },
                 // rust
@@ -100,7 +100,7 @@
                 "property.library:python": {
                     "foreground": "#ABB2BF"
                     // "fontStyle": "italic"
-                },
+                }
             }
         }
     },
